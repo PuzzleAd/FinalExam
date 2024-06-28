@@ -1,0 +1,48 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: azure;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+button {
+    background-color: green;
+    width: 200px;
+    height: 50px;
+    border-radius: 5px;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#uchinmachini {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    background-color: aqua;
+}
+
+.none {
+    display: none;
+}
+
+.here {
+    display: flex;
+}
